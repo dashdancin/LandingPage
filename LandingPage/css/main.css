@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Encode Sans Semi Expanded''Karla''Carter One';
+    font-weight: bold;
+    font-style: normal;
+    margin: 0px;
+}
+
+.header {
+    display: grid;    
+    grid-template-columns: 20% 80%;
+}
+
+    .logo {
+    padding: 0;
+    text-align: center;
+    margin-right: 17px;
+    }
+
+    .navigator {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+        .navigator-list {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-row: 100%; 
+            list-style: none; 
+        }
+
+            .list-element {
+                padding: 0;
+                display: grid;
+                font-size: 20px;
+                text-align: center;
+                align-items: center;
+                width: 100px
+            }
+
+.content {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-image: url(../assets/images/innovationfactory.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 600px;
+    }
+
+    .main-content {
+        display: grid;
+        text-align: center;
+        align-items: center;
+        font-size: larger; 
+        color: black;
+        font-size: 25px;
+        line-height: 85px;
+    }
+
+         h1 span { 
+             background-color: #FFB400; 
+            }
+
+       .form {
+        display: grid;
+        grid-template: 80px 50px 50px 50px 85px 80px / 100%;
+        margin: 20px 70px 50px 170px;
+        padding: 20px 70px 45px 70px;
+        background-color:rgba(171, 236, 152, 0.575);
+        gap: 15px;
+    }
+        .form h2 {
+            display: grid;
+            width: 100%;
+            font-size: 18px;
+            box-sizing: content-box;
+            text-align: center;
+            align-items: center;
+            background-color: rgba(171, 236, 152, 0.89);
+        }
+
+        .form-phone {
+            display: grid;
+            grid-template-columns: 85px 1fr;
+            grid-template-rows: 50px
+        }
+
+        .form-button {
+            margin: 0;
+                margin: auto;
+        }
+
+            #button1 {            
+                width: 260px;
+                height: 80px;
+                background-color: rgb(38, 36, 134);
+                margin-bottom: 25px;
+                border: black;
+            }
+
+            #button1 {
+                font-size: 18px;
+                font-weight: 700;
+                color: white;
+            }
+
+        .checkbox {
+            margin: 0;
+            display: grid;
+            background-color: rgba(171, 236, 152, 0.89);
+            font-size: 15px;
+            grid-template-rows: 70px;
+            text-align: center;
+            align-items: center;
+        }
+
+    .maincenter {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 40px;
+    }
+
+    .main-menu {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: 300px 300px 300px;
+        text-align: center;
+        align-items: center;
+    }
+
+        .offer-items {
+            display: grid;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .offer-items h2 {
+        display: grid;
+        font-weight: 700;
+        font-size: 22px;
+        text-align: center;
+        align-items: center;
+
+        }
+
+        .offer-items img {
+            margin: auto;
+        }
+
+        .map-text {
+            display: grid;
+            align-items: center;
+            text-align: center;
+            margin-top: 80px;
+            font-size: 16px;
+            line-height: 40px;
+        }
+
+        .map-image {
+            margin-top: 40px;
+        }
+
+    .main-footer {
+        margin: 0;
+        font-family: 'Karla';
+        line-height: 30px;
+        background-color: rgba(209, 207, 207, 0.596);
+        padding: 25px 25px 30px 35px;
+        list-style: none;
+    }
+
+    .footer-tittle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px;
+        align-items: center;
+    }
+    
+    .footer-list ul{
+        list-style:none;
+        }
+
+    .calltoaction {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 120px;
+        width: 100%;    
+    }
+
+    .imagetoaction {
+        display: grid;
+        margin-left: 50px;
+    }
+
+    .socialtext {
+        text-align: center;
+        align-items: center;
+        font-size: 21px;
+    }
+
+    .site-list {
+        display: grid;
+        width: 100%;
+        height: 30%;
+        grid-template-columns: 110px 110px 110px 130px 150px 190px;
+        margin: 30px 10px 30px 90px;
+    }
+
+    .site-element {
+        font-family: Helvetica;
+        font-weight: lighter;
+        display: grid;
+        font-size: 18px;
+        list-style: none;
+        text-align: center;
+    }    
+    
+    .socialmedia {
+        display: grid;
+        grid-template-columns: 380px 380px;
+        justify-content: space-between
+    }
+ 
+    .nav-socialmedia {
+        margin: 7px 30px 35px 50px;
+        width: 80%;
+        height: 90%;
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+    .social-element {
+        display: inline-block;
+    }
+
+    .logofooter {
+        display: flex;
+        margin: auto;
+    }
