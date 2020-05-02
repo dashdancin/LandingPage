@@ -21,6 +21,9 @@ Index 	Html and Styles CSS
 
 CSS3 & HTML5
 
+### Preview 
+![](LandingPage/assets/images/Screenshot_1.png)
+
 ### Author 
 Omar Betanzos, Platzi Master Program
 
